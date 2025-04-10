@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="checkbox"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  form button:hover {
+    background-color: #27ae60;
+  }
+  
+  .book-list {
+    margin-top: 40px;
+  }
+  
+  .book-rack {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .book-shelf {
+    width: 48%;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-shelf h3 {
+    margin-top: 0;
+  }
+  
+  .book-item {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .book-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .book-item button {
+    padding: 6px 12px;
+    margin-right: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-item button:hover {
+    background-color: #2980b9;
+  }
+  
+  .book-item button.delete {
+    background-color: #e74c3c;
+  }
+  
+  .book-item button.delete:hover {
+    background-color: #c0392b;
+  }
+  
+  .book-item button.complete {
+    background-color: #f39c12;
+  }
+  
+  .book-item button.complete:hover {
+    background-color: #e67e22;
+  }
+
+  .book-item button.edit {
+    background-color: #f39c12;
+  }
+  
+  .book-item button.edit:hover {
+    background-color: #e67e22;
+  }
